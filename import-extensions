@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e -o pipefail
+
+
+cursor --list-extensions > extensions.txt

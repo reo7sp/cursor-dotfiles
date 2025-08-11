@@ -1,0 +1,7 @@
+anysphere.cursorpyright
+catppuccin.catppuccin-vsc
+catppuccin.catppuccin-vsc-icons
+ms-python.debugpy
+ms-python.python
+ms-vscode.sublime-keybindings
+vscodevim.vim

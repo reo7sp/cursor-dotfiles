@@ -1,7 +1,15 @@
 anysphere.cursorpyright
 catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
+esbenp.prettier-vscode
+golang.go
+hediet.vscode-drawio
+jebbs.plantuml
+llvm-vs-code-extensions.vscode-clangd
+mermaidchart.vscode-mermaid-chart
 ms-python.debugpy
 ms-python.python
 ms-vscode.sublime-keybindings
+redhat.vscode-yaml
 vscodevim.vim
+yzhang.markdown-all-in-one

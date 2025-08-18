@@ -136,5 +136,24 @@
     {
         "key": "alt+cmd+b",
         "command": "-workbench.action.toggleAuxiliaryBar"
-    }
+    },
+    {
+        "key": "ctrl+,",
+        "command": "workbench.action.moveEditorLeftInGroup",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "workbench.action.moveEditorRightInGroup",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    { "key": "ctrl+1", "command": "workbench.action.openEditorAtIndex1", "when": "editorTextFocus && vim.mode == 'Normal'" },
+    { "key": "ctrl+2", "command": "workbench.action.openEditorAtIndex2", "when": "editorTextFocus && vim.mode == 'Normal'" },
+    { "key": "ctrl+3", "command": "workbench.action.openEditorAtIndex3", "when": "editorTextFocus && vim.mode == 'Normal'" },
+    { "key": "ctrl+4", "command": "workbench.action.openEditorAtIndex4", "when": "editorTextFocus && vim.mode == 'Normal'" },
+    { "key": "ctrl+5", "command": "workbench.action.openEditorAtIndex5", "when": "editorTextFocus && vim.mode == 'Normal'" },
+    { "key": "ctrl+6", "command": "workbench.action.openEditorAtIndex6", "when": "editorTextFocus && vim.mode == 'Normal'" },
+    { "key": "ctrl+7", "command": "workbench.action.openEditorAtIndex7", "when": "editorTextFocus && vim.mode == 'Normal'" },
+    { "key": "ctrl+8", "command": "workbench.action.openEditorAtIndex8", "when": "editorTextFocus && vim.mode == 'Normal'" },
+    { "key": "ctrl+9", "command": "workbench.action.openEditorAtIndex9", "when": "editorTextFocus && vim.mode == 'Normal'" }
 ]

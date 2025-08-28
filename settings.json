@@ -151,5 +151,6 @@
   "vim.smartcase": true,
   "workbench.editor.openSideBySideDirection": "right",
   "vim.enableNeovim": true,
-  "viml.highVimHelpIndentStylePriority": false
+  "viml.highVimHelpIndentStylePriority": false,
+  "makefile.configureOnOpen": true
 }

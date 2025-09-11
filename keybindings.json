@@ -155,5 +155,14 @@
     { "key": "ctrl+6", "command": "workbench.action.openEditorAtIndex6", "when": "editorTextFocus && vim.mode == 'Normal'" },
     { "key": "ctrl+7", "command": "workbench.action.openEditorAtIndex7", "when": "editorTextFocus && vim.mode == 'Normal'" },
     { "key": "ctrl+8", "command": "workbench.action.openEditorAtIndex8", "when": "editorTextFocus && vim.mode == 'Normal'" },
-    { "key": "ctrl+9", "command": "workbench.action.openEditorAtIndex9", "when": "editorTextFocus && vim.mode == 'Normal'" }
+    {
+        "key": "ctrl+9",
+        "command": "workbench.action.openEditorAtIndex9",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-lineBreakInsert",
+        "when": "textInputFocus && !editorReadonly"
+    }
 ]

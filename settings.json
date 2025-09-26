@@ -106,7 +106,7 @@
     { "before": [ "<C-Up>" ], "commands": [ "workbench.action.increaseViewSize" ] },
     { "before": [ "<C-Down>" ], "commands": [ "workbench.action.decreaseViewSize" ] },
     { "before": [ "<C-Left>" ], "commands": [ "workbench.action.decreaseViewSize" ] },
-    { "before": [ "<C-Right>" ], "commands": [ "workbench.action.increaseViewSize" ] }
+    { "before": [ "<C-Right>" ], "commands": [ "workbench.action.increaseViewSize" ] },
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     { "before": [ "g", "R" ], "commands": [ "editor.action.refactor" ] },
@@ -114,7 +114,7 @@
     { "before": [ "g", "s" ], "commands": [ "workbench.action.findInFiles" ] }
   ],
   "vim.highlightedyank.enable": true,
-"vim.showMarksInGutter": true,
+  "vim.showMarksInGutter": true,
   "vim.sneak": true,
   "vim.sneakReplacesF": true,
   "vim.sneakUseIgnorecaseAndSmartcase": true,
@@ -148,8 +148,9 @@
   "vim.hlsearch": true,
   "vim.ignorecase": true,
   "vim.smartcase": true,
+  "vim.incsearch": true,
   "workbench.editor.openSideBySideDirection": "right",
-  "vim.enableNeovim": true,
   "viml.highVimHelpIndentStylePriority": false,
-  "makefile.configureOnOpen": true
+  "makefile.configureOnOpen": true,
+  "cursor.composer.queueMessageDefaultBehavior": "queue"
 }

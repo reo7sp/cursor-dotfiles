@@ -164,5 +164,15 @@
         "key": "ctrl+o",
         "command": "-lineBreakInsert",
         "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+cmd+,",
+        "command": "aiSettings.action.open",
+        "when": "!isSettingsPaneOpen"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "-aiSettings.action.open",
+        "when": "!isSettingsPaneOpen"
     }
 ]

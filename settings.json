@@ -152,5 +152,13 @@
   "workbench.editor.openSideBySideDirection": "right",
   "viml.highVimHelpIndentStylePriority": false,
   "makefile.configureOnOpen": true,
-  "cursor.composer.queueMessageDefaultBehavior": "queue"
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }

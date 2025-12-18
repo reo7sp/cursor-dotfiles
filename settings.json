@@ -1,5 +1,5 @@
 {
-  "http.proxy": "http://127.0.0.1:1087",
+  "http.proxy": "http://127.0.0.1:1086",
   "cursor.composer.shouldAutoAcceptDiffs": false,
   "editor.fontFamily": "Jetbrains Mono",
   "editor.fontLigatures": false,

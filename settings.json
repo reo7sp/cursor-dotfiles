@@ -4,6 +4,7 @@
   "editor.fontFamily": "Iosevka",
   "editor.fontLigatures": false,
   "editor.fontSize": 14,
+  "editor.lineHeight": 1.3,
   "editor.fontVariations": false,
   "editor.formatOnPaste": true,
   "editor.inlineSuggest.enabled": false,
